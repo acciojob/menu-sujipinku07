@@ -1,17 +1,16 @@
-
 import React, { useState } from 'react'
 import CompA from './CompA';
 
 
 const data = [
     {
-      id: 1,
-      title: 'buttermilk pancakes',
-      category: 'breakfast',
-      price: 15.99,
-      img: './images/item-1.jpeg',
-      desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
-    },
+        id: 1,
+        title: 'buttermilk pancakes',
+        category: 'breakfast',
+        price: 15.99,
+        img: './images/item-1.jpeg',
+        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+      },
     {
       id: 2,
       title: 'diner double',
@@ -155,5 +154,3 @@ const App = () => {
 }
 
 export default App
-
-
